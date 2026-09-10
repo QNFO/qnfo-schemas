@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "kind": "gate-manifest",
   "id": "QNFO.GATES.FULL.v1",
-  "ts": "2026-09-09T14:05:00Z",
+  "ts": "2026-09-10T07:30:00Z",
   "provenance": {
     "emitter": "deepchat-parent",
     "session": "execution-guarantee-remediation",
-    "sha256": ""
+    "sha256": "bd2b0a277e7a02255fdb6ed94aeb9b2bf7d35db99495529e2cb10949782f29a7"
   },
   "payload": {
     "note": "FULL MANDATORY gate chain encoded from system prompt v4.19 preservation chain (2026-08-12 .. 2026-09-08) + standing hard gates. Row 170 (codeparse P2). Some historical gates superseded/deprecated - status field marks active; deprecated gates retained for provenance.",
@@ -1466,6 +1466,13 @@
         "status": "active",
         "description": "Kernel ratchet fingerprint a6419b9a ratified 2026-09-01; autonomy boundary procedural.",
         "evidence_pointer": "system prompt v4.19 + QNFO/qnfo-schemas"
+      },
+      {
+        "id": "SERVER-SIDE-EXEC-GUARANTEE-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "All code and tool calls execute server-side, never client-side; non-executing clients get the pure server loop; unknown-tool calls continue server-side; runner client handoff guarded by hybrid.",
+        "evidence_pointer": "system prompt v4.20 (2026-09-09) + qnfo-ops v2.7.0 + qnfo-ops/docs/SERVER-SIDE-EXEC-CLIENT-MATRIX-2026-09-09.md"
       }
     ]
   }
