@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "kind": "gate-manifest",
   "id": "QNFO.GATES.FULL.v1",
-  "ts": "2026-09-10T07:30:00Z",
+  "ts": "2026-09-10T08:16:00Z",
   "provenance": {
     "emitter": "deepchat-parent",
     "session": "execution-guarantee-remediation",
-    "sha256": "bd2b0a277e7a02255fdb6ed94aeb9b2bf7d35db99495529e2cb10949782f29a7"
+    "sha256": "1b8f5271568933c7b889898aee98467ec75ce44583ff586ea0b3ed5e804c90c5"
   },
   "payload": {
     "note": "FULL MANDATORY gate chain encoded from system prompt v4.19 preservation chain (2026-08-12 .. 2026-09-08) + standing hard gates. Row 170 (codeparse P2). Some historical gates superseded/deprecated - status field marks active; deprecated gates retained for provenance.",
@@ -1473,6 +1473,419 @@
         "status": "active",
         "description": "All code and tool calls execute server-side, never client-side; non-executing clients get the pure server loop; unknown-tool calls continue server-side; runner client handoff guarded by hybrid.",
         "evidence_pointer": "system prompt v4.20 (2026-09-09) + qnfo-ops v2.7.0 + qnfo-ops/docs/SERVER-SIDE-EXEC-CLIENT-MATRIX-2026-09-09.md"
+      },
+      {
+        "id": "ANSWER-ROUND-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "AUDIT-OUTPUT-2026-09-08",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "CF-ROUTER-ALIGN-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "CHATBOX-CLIENT-PARITY-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "CMD-RED-TEAM-SUB-DEPRECATED-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "CONCURRENT-REPO-SYNC-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "CONTINUATION-CONTEXT-INJECTION-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "COST-AUDIT-MISS-AI-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "CRON-SCHEDULE-EXTERNAL-DRIFT-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "DATASET-SOURCE-FALLBACK-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "DEEPCHAT-SEARCH-DEFAULT-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "DEEPSEEK-PARAM-DEFAULTS-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "EDGE-PDF-PAGE-KEYWORD-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "EMAIL-BODY-DETECTION-ONLY-STALE-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "EMAIL-COMPOSER-REVERT-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "ENSEMBLE-EMPTY-RETRY-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "ENUMERATION-DRIFT-SNAPSHOT-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "FLEET-COMPACT-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "FOOTER-PARENTHETICAL-DRIFT-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "FROZEN-VIEW-FALLBACK-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "HYBRID-MODEL-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "INTENT-TOKEN-ROTATION-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "MCP-AUTOAPPROVE-PARITY-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "OPS-DAILY-CAP-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "OPS-SETTINGS-IMMUTABLE-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "PARAM-TUNE-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "POSTER-FILL-MEASURE-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "RED-TEAM-AUDIT-METHOD-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "REDTEAM-QUEUE-STALL-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "RELAY-COST-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "REQ-CAPTURE-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "ROUTER-CONTEXT-GAP-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "ROUTER-RUN-CODE-SANDBOX-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "RUNCODE-EXEC-BG-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "RUNCODE-HALT-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "RUNCODE-HALT-COMPOUND-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "RUNCODE-OUTPUT-CAP-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "RUNCODE-SUBTOOL-STRING-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "RUNCODE-TOOLCALL-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "RUNKEY-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "SERVER-SIDE-EXEC-100-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "SPECTRAL-ESTIMATOR-CONSTRUCTION-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "STREAM-FINAL-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "SVG-LABEL-EXTENT-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "TAPE-SEARCH-HEARTBEAT-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "TOKEN-DISCOVERY-FAILURE-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "URL-ROBUST-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "VECTORIZE-403",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "VERIFY-IN-CODE-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "WBS-COLLISION-2",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "WORKER-FALLBACK-TEXT-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "WRITE-EXEC-ORDER-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "WSH-OUTLOOK-COM-MEM-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "ZENODO-ACCESS-RIGHT-LEGACY-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "ZENODO-BUCKET-PUT-415-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "ZENODO-DELETE-COUNT-VERIFY-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "ZENODO-DEPOSIT-FILE-DOWNLOAD-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "ZENODO-RECORDS-PIDS-ON-DEPOSIT-DRAFT-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
+      },
+      {
+        "id": "ZENODO-VENUE-ATTRIBUTION-1",
+        "version": "1.0",
+        "status": "active",
+        "description": "System-prompt gate (preservation-chain body); see evidence_pointer.",
+        "evidence_pointer": "system prompt v4.20 body + qnfo-schemas gates/full-manifest.json"
       }
     ]
   }
