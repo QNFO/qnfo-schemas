@@ -1,3 +1,5 @@
+> **MOVED (2026-11-04):** this repository is archived. Its content now lives in [QNFO/qnfo-workers/docs/schemas-p0](https://github.com/QNFO/qnfo-workers/tree/main/docs/schemas-p0).
+
 # qnfo-schemas — QNFO Code-Parsable Artifact Registry
 
 > **Self-doc header (FLEET-SELF-DOC-1)**
